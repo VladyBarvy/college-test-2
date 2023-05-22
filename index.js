@@ -168,6 +168,8 @@ for (let i = 0; i < poop4.length; i += 1) {
   console.log(`Power of army ${nameArmy}: ${power_of_mercenary_army}; The ratio of power and quantity: ${AFM_vs_unitPo}`);
 }
 
+console.log(Math.round(AFM_vs_unitPo));
+
 ////////////////////////////////////////////
 //name_arr_C_vs_P.push([String(poop4[i][0]), cost_vs_power]);
 
